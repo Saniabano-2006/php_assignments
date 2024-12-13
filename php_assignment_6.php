@@ -95,7 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <h1>STUDENT'S REGISTRATION FORM</h1>
-    <form class=" form" action="pindex.php" method="POST">
+    <form class=" form" action="php_assignment_6.php" method="POST">
         <label for="first_name">First Name:</label>
         <input type="text" id="first_name" name="first_name" value="<?= htmlspecialchars($first_name) ?>"><br>
         <span class="error"> * <?php echo $first_error; ?></span>
